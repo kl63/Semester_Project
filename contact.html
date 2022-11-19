@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Chinatown Diner of 88</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  href="menu.html" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menus
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="menu.html">Menu</a>
+                            <a class="dropdown-item" href="traditional_menu.html">Traditional Dish Menu</a>
+                            <!---<a class="dropdown-item" href="#">Link 3</a>
+                            <a class="dropdown-item" href="#">Link 4</a> -->
+                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+
+                    <!-- Dropdown
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Education
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                            <a class="dropdown-item" href="#">Link 4</a>
+                        </div>-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="cont_title">
+                    <h1 class="cont_heading">Contact Us:</h1>
+                    <h5 class="cont_heading">Feel free to contact us and let us know how we’re doing.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Subscribe
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </row>
+</div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <!--Google map-->
+                    <div id="map-container-section"  class="z-depth-1-half map-container-section mb-2" style="height: 400px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9479428212703!2d-74.17060068461117!3d40.74117097932877!2m3!1f0!2f0!3
+                    f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25380768e3d9b%3A0x4ee7ded012edca87!2sChinatown%20Diner!5e0!3m2!1sen!2sus
+                    !4v1668457150774!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="cont_subheading">Hour of Operation:</h3>
+                    <h4 class="cont_sub2heading"> Mon-Sat: 10am-9pm</h4>
+                    <h4 class="cont_sub2heading">Sun: 12pm-8pm</h4>
+                    <h3 class="cont_subheading">Location:</h3>
+                    <h4 class="cont_sub2heading">123 Main St.<br>Newark NJ, 07102</h4>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="cont_subheading">Contact Us:</h3>
+                    <h4 class="cont_sub2heading">(123)456 7890<br>(098)765 4321</h4>
+                    <h3 class="cont_subheading">Order At:</h3>
+                    <h4 class="order_links" ><a href="https://www.ubereats.com/" target="_blank">Uber Eats</a></h4>
+                    <h4 class="order_links" ><a href="https://www.grubhub.com/" target="_blank">Grubhub</a></h4>
+                </div>
+
+        </div>
+
+        <footer class="footer page-footer font-small " >
+            <div class="container">
+                <div class="row">
+                    <h6 class="col-sm-4"><b>Hours of Operation:</b><br> Mon-Sat:10am-9pm <br>Sun:12pm-8pm</h6>
+                    <h6 class="col-sm-4">Location:<br>123 Main St.<br>Newark NJ, 07029</h6>
+                    <h6 class="col-sm-4">Contact Us:<br>(123) 456-7890<br>(098)765-4321</h6>
+                    <span class="text-muted">&copy; Kevin Lin, 2022 |  Terms Of Use  |  Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
