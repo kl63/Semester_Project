@@ -158,6 +158,6 @@ table{
 
 
 }
-body{
-    background-image: url("/images/about_us_background.png");
+.about_us_back{
+    background-image: url("/images/about_us_background.jpeg");
 }
