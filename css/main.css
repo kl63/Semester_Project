@@ -1,6 +1,6 @@
 
-body {
-    background-color: blanchedalmond;
+body{
+    background-image: url("/images/about_us_background.jpeg");
 }
 footer{
     position: fixed;
@@ -75,6 +75,9 @@ img{
     height: 250px; /* Picture of cards*/
     width: 250px;
 }
+.indx_back{
+    background: blanchedalmond;
+}
 /*----------------------------------------------Contact Page---------------------------------------------------*/
 .map-container-section {
     overflow:hidden;
@@ -103,9 +106,13 @@ img{
 }
 .cont_sub2heading{
     text-align: center;
+
 }
 .order_links{
     text-align: center;
+}
+.cont_back{
+    background: blanchedalmond;
 }
 
 /*----------------------------------------------Menus Page (Both)---------------------------------------------------*/
@@ -115,9 +122,6 @@ img{
     color: #e3b419;
     font-family: 'Alfa Slab One';
     margin-bottom: 10px;
-
-
-
 }
 .menu_subheadings{
     text-align: left;
@@ -131,6 +135,9 @@ table{
 }
 .lat_container{
     margin-bottom: 500px;
+}
+.menu_back{
+    background: salmon;
 }
 /*----------------------------------------------About Us Page---------------------------------------------------*/
 .about_us_pic{
@@ -151,6 +158,6 @@ table{
 
 
 }
-.about_us_back{
+body{
     background-image: url("/images/about_us_background.jpeg");
 }
