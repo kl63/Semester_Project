@@ -20,6 +20,30 @@ footer{
     padding: 10px;
     font-size: 15px;
 }
+@media screen and (min-width: 900px) {
+    h5 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    h2, h6{
+        font-size: 15px;
+    }
+    h5, .card-text{
+        font-size: 15px;
+
+    }
+    .statement{
+        font-size: 10px;
+    }
+    .card-img-top{
+        width: 10%;
+        height: 10%;
+    }
+    .card{
+        width: 15rem;
+    }
+}
 /*----------------------------------------------Home Page---------------------------------------------------*/
 .jumbotron-fluid{
     background-size: cover;
